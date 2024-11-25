@@ -8,7 +8,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function Page() {
   return (
-    <View className="flex flex-1 justify-center items-center mx-3">
+    <View className="flex flex-1 justify-center items-center">
       {/* <Intro />  */}
       {/* <GestureHandlerRootView className="flex-1 justify-center items-center mx-3">
         <PanGesture />
