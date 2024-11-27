@@ -1,3 +1,4 @@
+import InterpolateColors from "@/components/interpolateColor";
 import InterpolateWithScrollView from "@/components/interpolateWithScroll";
 import Intro from "@/components/intro";
 import PanGesture from "@/components/panGesture";
@@ -13,7 +14,8 @@ export default function Page() {
       {/* <GestureHandlerRootView className="flex-1 justify-center items-center mx-3">
         <PanGesture />
       </GestureHandlerRootView> */}
-      <InterpolateWithScrollView />
+      {/* <InterpolateWithScrollView /> */}
+      <InterpolateColors />
     </View>
   );
 }
