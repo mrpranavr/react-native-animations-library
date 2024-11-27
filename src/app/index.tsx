@@ -2,6 +2,7 @@ import InterpolateColors from "@/components/interpolateColor";
 import InterpolateWithScrollView from "@/components/interpolateWithScroll";
 import Intro from "@/components/intro";
 import PanGesture from "@/components/panGesture";
+import SwipeToDelete from "@/components/swipeToDelete";
 import { Link } from "expo-router";
 import React, { useEffect } from "react";
 import { Text, View } from "react-native";
@@ -15,7 +16,10 @@ export default function Page() {
         <PanGesture />
       </GestureHandlerRootView> */}
       {/* <InterpolateWithScrollView /> */}
-      <InterpolateColors />
+      {/* <InterpolateColors /> */}
+      <GestureHandlerRootView className="flex-1 w-full">
+        <SwipeToDelete />
+      </GestureHandlerRootView>
     </View>
   );
 }
